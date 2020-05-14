@@ -1,7 +1,7 @@
 # Modifications
 
 This is a modified version of PsychoPy that runs headless when the window type is set to glfw (wintype="glfw").
-Note I did not create the framework Psychopy and the official version can be found here: https://github.com/psychopy/psychopy.
+Note: I did not create the framework Psychopy and the official version can be found here: https://github.com/psychopy/psychopy.
 
 # PsychoPy
 
