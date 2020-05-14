@@ -299,6 +299,7 @@ class GLFWBackend(BaseBackend):
         glfw.window_hint(glfw.STENCIL_BITS, win.stencilBits)
         glfw.window_hint(glfw.DEPTH_BITS, win.depthBits)
         glfw.window_hint(glfw.AUTO_ICONIFY, 0)
+        glfw.window_hint(glfw.VISIBLE, 0) # Makes it run headless
 
         # window appearance and behaviour hints
         if not win.allowGUI:
